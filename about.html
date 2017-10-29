@@ -34,10 +34,8 @@ http://nicolapreti.tumblr.com/post/82179801551/i-vettori-del-cambiamento-inclusi
                   var nhour=d.getHours(),nmin=d.getMinutes(),nsec=d.getSeconds();
                   if(nmin<=9) nmin="0"+nmin
                   if(nsec<=9) nsec="0"+nsec;
-
                   document.getElementById('clock').innerHTML=""+nhour+":"+nmin+":"+nsec+"";
                 }
-
                 window.onload=function() {
                   GetClock();
                   setInterval(GetClock,1000);
