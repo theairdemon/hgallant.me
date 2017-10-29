@@ -16,20 +16,10 @@
 }
 
 /*Home page background*/
-body.home {
+body {
   background: black url(../images/lines2.gif) no-repeat fixed center;
   /*Animation*/
   -webkit-animation: pageloadt 5s ; /* Chrome, Safari, Opera */
-  animation: pageload 5s ;
-}
-
-body.about {
-  background-image: url(../images/lines2.gif), url(../images/lines2.gif);
-  background-position: -30% -15%, 130% -15%;
-  background-repeat: no-repeat, no-repeat;
-  background-color: black;
-  /*Animation*/
-  -webkit-animation: pageload 5s ; /* Chrome, Safari, Opera */
   animation: pageload 5s ;
 }
 
