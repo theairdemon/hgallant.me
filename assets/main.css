@@ -25,7 +25,7 @@ body.home {
 
 body.about {
   background-image: url(../images/lines2.gif), url(../images/lines2.gif);
-  background-position: 0% 50%, 100% 50%;
+  background-position: 10% 50%, 90% 50%;
   background-repeat: no-repeat, no-repeat;
   background-color: black;
   /*Animation*/
