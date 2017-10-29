@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!--Background image source:
+http://nicolapreti.tumblr.com/post/82179801551/i-vettori-del-cambiamento-inclusione-cibernetica-->
+<html lang = "en">
+  <head>
+    <meta charset = "utf-8">
+    <!--Title of webpage-->
+    <title>About - HG</title>
+    <link rel="stylesheet" type="text/css" href="assets/main.css">
+  </head>
+  <div>
+  <body class="about">
+    <div class="m-scene" id="main">
+      <div class="m-header scene_element scene_element--fadein">
+        <header>
+          <!--Welcome, navigation, time-->
+          <div class="top">
+            <h1 class="top_element">ABOUT</h1>
+            <nav class="top_element">
+              <!--Navbar-->
+              <hr></hr>
+              <a href="index.html">Home</a>
+              <a href="about.html">About</a>
+              <a href="projects.html">Projects</a>
+              <a href="contact.html">Contact</a>
+              <hr></hr>
+            </nav>
+            <h1 class="top_element">
+              <!--Looked up clock script online-->
+              <!--Link: https://www.ricocheting.com/code/javascript/html-generator/date-time-clock-->
+              <script type="text/javascript">
+                function GetClock() {
+                  var d=new Date();
+                  var nhour=d.getHours(),nmin=d.getMinutes(),nsec=d.getSeconds();
+                  if(nmin<=9) nmin="0"+nmin
+                  if(nsec<=9) nsec="0"+nsec;
+
+                  document.getElementById('clock').innerHTML=""+nhour+":"+nmin+":"+nsec+"";
+                }
+
+                window.onload=function() {
+                  GetClock();
+                  setInterval(GetClock,1000);
+                }
+                </script>
+                <div id="clock"></div>
+            </h1>
+          </div>
+        </header>
+      </div>
+    <div class="m-page scene_element scene_element--fadeinup">
+      <article>
+        <p>Once upon a time, there was born a child.</p>
+        <p>He grew up with two loving parents and a wonderful younger sister.</p>
+        <p>He loved to learn and worked hard all throughout primary and secondary school.</p>
+        <p>His hard work paid off, and he was admitted to Dartmouth College.</p><br>
+        <p>Where will his story go from here?</p>
+        <p>Only time will tell.</p>
+      </article>
+    </div>
+  </div>
+  </body>
+  </div>
+</html>
