@@ -20,7 +20,7 @@ body {
   background: black url(../images/lines2.gif) no-repeat fixed center;
   /*Animation*/
   -webkit-animation: pageloadt 5s ; /* Chrome, Safari, Opera */
-  animation: pageload 5s ;
+  animation: pageload 5s ; 
 }
 
 /*Transitions*/
