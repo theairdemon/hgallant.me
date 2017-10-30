@@ -20,7 +20,7 @@ body {
   background: black url(../images/lines2.gif) no-repeat fixed center;
   /*Animation*/
   -webkit-animation: pageloadt 5s ; /* Chrome, Safari, Opera */
-  animation: pageload 5s ; 
+  animation: pageload 5s ;
 }
 
 /*Transitions*/
@@ -68,21 +68,25 @@ header {
 /*Changes all elements within section tags*/
 section {
   clear:both;
-  float:center;
+  float: center;
+  text-align: left;
   margin-left: 5%;
-  margin-right: 5%;
+  margin-right: 60%;
   font-size: 15px;
   position: fixed;
-  bottom: 10%
+  bottom: 10%;
+  line-height: 20px;
 }
 
 article {
   clear:both;
+  float: center;
+  text-align: right;
+  margin-left: 60%;
+  margin-right: 5%;
   font-size: 15px;
-  position: absolute;
-  text-align: center;
-  top: 40%;
-  width: 99%;
+  position: fixed;
+  bottom: 10%;
 }
 
 /*Changes a href elements*/
