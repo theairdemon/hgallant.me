@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!--Background image source:
+http://nicolapreti.tumblr.com/post/82179801551/i-vettori-del-cambiamento-inclusione-cibernetica-->
+<html lang = "en">
+  <head>
+    <meta charset = "utf-8">
+    <!--Title of webpage-->
+    <title>Projects - HG</title>
+    <link rel="stylesheet" type="text/css" href="assets/main.css">
+  </head>
+  <div>
+  <body>
+        <header>
+          <!--Welcome, navigation, time-->
+          <div class="top">
+            <h1 class="top_element">PROJECTS</h1>
+            <nav class="top_element">
+              <!--Navbar-->
+              <hr></hr>
+              <a href="index.html">Home</a>
+              <a href="about.html">About</a>
+              <a href="projects.html">Projects</a>
+              <a href="contact.html">Contact</a>
+              <hr></hr>
+            </nav>
+            <h1 class="top_element">
+              <!--Looked up clock script online-->
+              <!--Link: https://www.ricocheting.com/code/javascript/html-generator/date-time-clock-->
+              <script type="text/javascript">
+                function GetClock() {
+                  var d=new Date();
+                  var nhour=d.getHours(),nmin=d.getMinutes(),nsec=d.getSeconds();
+                  if(nmin<=9) nmin="0"+nmin
+                  if(nsec<=9) nsec="0"+nsec;
+                  document.getElementById('clock').innerHTML=""+nhour+":"+nmin+":"+nsec+"";
+                }
+                window.onload=function() {
+                  GetClock();
+                  setInterval(GetClock,1000);
+                }
+                </script>
+                <div id="clock"></div>
+            </h1>
+          </div>
+        </header>
+      <!--Article is offset higher than Section-->
+      <section>
+        <!--PoemGEN-->
+        <a href="https://play.google.com/store/apps/details?id=com.mycompany.poetry" target="_blank">
+          <img src="images/ic_launcher-web.png" alt="Download now!" style="width:100px;height:100px;"></img>
+        </a>
+        <h4>PoemGEN</h4>
+        <p>This revolutionary* app generates random poetry for your viewing pleasure! The poems
+          sound like a human made them, but they're actually just random words thrown together!
+          Nothing is real and art is a lie! Get it now! <p><small>*Not actually revolutionary</small>
+      </section>
+      <article>
+        <!--The Dark Frontier Project-->
+        <a href="https://twitter.com/thedarkfrontier" target="_blank">
+          <img src="images/df_twitter_bg.jpg" alt="Visit us on Twitter!" style="width:330px;height:110px;"></img>
+        </a>
+        <h4>The Dark Frontier Project</h4>
+        <p>Chronicling the events that transpired during the Dark Crisis of the 89th century, these stories,
+          transcripts, artwork, and miscellaneous documents will serve as records of the battles
+          fought against both the Dark and the terrorist organization known as Eden.</p>
+        <p>As we continue to wage war on the forces that threaten the survival of our species,
+          everyone must make a choice: stand tall or run away?</p>
+        <p>The choice is yours.</p>
+      </article>
+  </body>
+  </div>
+</html>
