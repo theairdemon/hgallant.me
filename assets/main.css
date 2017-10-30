@@ -15,48 +15,17 @@
   font-size: 30px
 }
 
-/*Home page background*/
+/*HTML tags*/
+
+/*Background*/
 body {
   background: black url(../images/lines2.gif) no-repeat fixed center;
-  /*Animation*/
-  -webkit-animation: pageloadt 5s ; /* Chrome, Safari, Opera */
-  animation: pageload 5s ;
 }
-
-/*Transitions*/
-/* Chrome, Safari, Opera */
-@-webkit-keyframes pageload {
-  from {opacity: 0.2;}
-  to {opacity: 1;}
-}
-
-/* Standard syntax */
-@keyframes pageload {
-  from {opacity: 0.2;}
-  to {opacity: 1;}
-}
-
-@font-face {
-  font-family: "Raleway";
-  src: url(../fonts/Raleway/Raleway-Regular.ttf);
-}
-
-@font-face {
-  font-family: "Hacked";
-  src: url(../fonts/hacked/HACKED.ttf);
-}
-
-/*HTML tags*/
 
 /*Changes all elements within div tags*/
 div {
   font-family: "Courier";
   color:white;
-}
-
-/*Changes all elements within body tags*/
-body {
-  font-family: sans-serif;
 }
 
 /*Changes all elements within header tags*/
@@ -76,6 +45,8 @@ section {
   position: fixed;
   bottom: 10%;
   line-height: 20px;
+  -webkit-animation: pageloadt 5s ; /* Chrome, Safari, Opera */
+  animation: pageload 5s ;
 }
 
 article {
@@ -87,6 +58,8 @@ article {
   font-size: 15px;
   position: fixed;
   bottom: 10%;
+  -webkit-animation: pageloadt 5s ; /* Chrome, Safari, Opera */
+  animation: pageload 5s ;
 }
 
 /*Changes a href elements*/
@@ -101,4 +74,17 @@ a {
 hr {
   border-top: 1px;
   color:white;
+}
+
+/*Transitions*/
+/* Chrome, Safari, Opera */
+@-webkit-keyframes pageload {
+  from {opacity: 0.2;}
+  to {opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes pageload {
+  from {opacity: 0.2;}
+  to {opacity: 1;}
 }
